@@ -67,10 +67,10 @@ FAISSSHAREDFLAGS=-shared
 BLASCFLAGS=-DFINTEGER=int
 
 # This is for Centos:
-#BLASLDFLAGS?=/usr/lib64/libopenblas.so.0
+# BLASLDFLAGS?=/usr/lib64/libopenblas.so.0
 
 # for Ubuntu 16:
-sudo apt-get install libopenblas-dev python-numpy python-dev
+# sudo apt-get install libopenblas-dev python-numpy python-dev
 BLASLDFLAGS?=/usr/lib/libopenblas.so.0
 
 # for Ubuntu 14:
