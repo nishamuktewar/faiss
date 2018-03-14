@@ -12,7 +12,7 @@ CC=gcc
 CXX=g++
 
 CFLAGS=-fPIC -m64 -Wall -g -O3 -mavx -msse4 -mpopcnt -fopenmp -Wno-sign-compare -fopenmp
-CXXFLAGS=$(CFLAGS) -std=c++0x-compat
+CXXFLAGS=$(CFLAGS) -std=c++11
 LDFLAGS=-g -fPIC  -fopenmp
 
 # common linux flags
