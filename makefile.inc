@@ -107,8 +107,8 @@ SWIGEXEC=swig
 # The Python include directories for a given python executable can
 # typically be found with
 #
-   python -c "import distutils.sysconfig ; print distutils.sysconfig.get_python_inc()"
-   python -c "import numpy ; print numpy.get_include()"
+ python -c "import distutils.sysconfig ; print distutils.sysconfig.get_python_inc()"
+ python -c "import numpy ; print numpy.get_include()"
 #
 # or, for Python 3, with
 #
